@@ -50,6 +50,9 @@ public class Person {
         this.passport = passport;
     }
 
+    public Person() {
+    }
+
     public Person(String id, String fio, String gender, String passport, LocalDate bd) {
         this.id = id;
         this.fio = fio;
