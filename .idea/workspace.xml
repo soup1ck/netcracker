@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6457fb0-c768-4b08-8133-f270d97305c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractInternet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractInternet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractMobil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractMobil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/ContractTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Repository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20YmTOrxIDLIFoJXvQbSuqxKZ6b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6457fb0-c768-4b08-8133-f270d97305c3" name="Changes" comment="" />
+      <created>1636229904773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636229904773</updated>
+      <workItem from="1636229906266" duration="223000" />
+      <workItem from="1636230568389" duration="1440000" />
+      <workItem from="1636290209374" duration="9154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

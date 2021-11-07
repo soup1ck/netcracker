@@ -6,7 +6,13 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
 
+/**
+ * Сущность Person.
+ */
 public class Person {
+    /**
+     * Поля с айди, ФИО, полом, серией и номером пасспорта, день рождения.
+     */
     private String id, fio, gender, passport;
     private LocalDate bd;
 
@@ -53,6 +59,14 @@ public class Person {
     public Person() {
     }
 
+    /**
+     * Конструктор сущности Person.
+     * @param id
+     * @param fio
+     * @param gender
+     * @param passport
+     * @param bd
+     */
     public Person(String id, String fio, String gender, String passport, LocalDate bd) {
         this.id = id;
         this.fio = fio;
@@ -62,6 +76,6 @@ public class Person {
     }
 
 public int getAge(LocalDate date1){
-    return Period.between(LocalDate.now(),date1).getYears();
+    return Period.between(date1,LocalDate.now()).getYears();
     }
 }
