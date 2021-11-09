@@ -33,7 +33,7 @@ public class Repository {
         }
     }
     public boolean checkIfArrayFull() {
-        return this.contracts.length == this.size2;
+        return this.contracts.length <= this.size2;
     }
 
     /**
