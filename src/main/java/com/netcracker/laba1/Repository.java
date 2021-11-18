@@ -21,17 +21,18 @@ public class Repository {
         if (contracts == null) {
             throw new RuntimeException("0");
         }
-        x2:
         if(!checkIfArrayFull()) {
-            this.size+=this.size*2;
-            if(!checkIfArrayFull())
-                break x2;
-            if(checkIfArrayFull())
-                size2=this.size;
+            do
+                this.size += this.size * 2;
+            while (!checkIfArrayFull());
+        }
+            if(checkIfArrayFull()) {
+                size2 = this.size;
+            }
             this.contracts = Arrays.copyOf(this.contracts, this.size);
             System.arraycopy(contracts, 0, this.contracts, size2, contracts.length);
         }
-    }
+
     public boolean checkIfArrayFull() {
         return this.contracts.length <= this.size2;
     }
