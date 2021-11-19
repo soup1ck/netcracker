@@ -25,7 +25,7 @@ public class Repository {
         while (checkIfArrayFull(contracts.length)) {
             size1 += size1 * 2;
         }
-        Contract[] contracts1 = Arrays.copyOf(this.contracts, this.size1);
+        this.contracts = Arrays.copyOf(this.contracts, this.size1);
         System.arraycopy(contracts, 0, this.contracts, size, contracts.length);
         size+=contracts.length;
     }
