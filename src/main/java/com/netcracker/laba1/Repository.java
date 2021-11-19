@@ -21,10 +21,8 @@ public class Repository {
         if (contracts == null) {
             throw new RuntimeException("0");
         }
-        if(!checkIfArrayFull()) {
-            do
+        while (!checkIfArrayFull()) {
                 this.size += this.size * 2;
-            while (!checkIfArrayFull());
         }
             if(checkIfArrayFull()) {
                 size2 = this.size;
