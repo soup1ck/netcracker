@@ -11,41 +11,42 @@ public class Repository {
      */
     private Contract[] contracts;
     private int size;
-    private int size2;
+    private int size1;
 
     /**
      * Добавление элементов с проверкой и увелечением размерности массива.
+     *
      * @param contracts
      */
     public void add(Contract[] contracts) {
         if (contracts == null) {
             throw new RuntimeException("0");
         }
-        while (!checkIfArrayFull()) {
-                this.size += this.size * 2;
+        while (checkIfArrayFull(contracts.length)) {
+            size1 += size1 * 2;
         }
-            if(checkIfArrayFull()) {
-                size2 = this.size;
-            }
-            this.contracts = Arrays.copyOf(this.contracts, this.size);
-            System.arraycopy(contracts, 0, this.contracts, size2, contracts.length);
-        }
+        Contract[] contracts1 = Arrays.copyOf(this.contracts, this.size1);
+        System.arraycopy(contracts, 0, this.contracts, size, contracts.length);
+        size+=contracts.length;
+    }
 
-    public boolean checkIfArrayFull() {
-        return this.contracts.length <= this.size2;
+    public boolean checkIfArrayFull(int newElements) {
+        return size1 < size + newElements;
     }
 
     /**
      * Поиск по id.
+     *
      * @param index
      * @return
      */
-    public Contract getByIndex(int index){
+    public Contract getByIndex(int index) {
         return contracts[index];
     }
 
     /**
      * Удаление по id.
+     *
      * @param index
      */
     public void remove(int index) {
@@ -56,9 +57,11 @@ public class Repository {
         System.arraycopy(this.contracts, index + 1, this.contracts, index, contracts.length - 1 - index);
         this.contracts[this.size - 1] = null;
     }
+
     public Repository() {
-        contracts = new Contract[size];
-        size = 10;
+        size = 0;
+        contracts = new Contract[10];
+        size1 = contracts.length;
     }
 }
 

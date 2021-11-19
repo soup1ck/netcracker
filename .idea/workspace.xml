@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6457fb0-c768-4b08-8133-f270d97305c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/laba1/Repository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,8 @@
       <workItem from="1636290209374" duration="11227000" />
       <workItem from="1636468327776" duration="385000" />
       <workItem from="1637272790828" duration="1258000" />
+      <workItem from="1637347295659" duration="1819000" />
+      <workItem from="1637349193968" duration="997000" />
     </task>
     <servers />
   </component>
